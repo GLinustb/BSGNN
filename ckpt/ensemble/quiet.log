@@ -1,0 +1,1513 @@
+Loading data
+Loading data
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 7.985044 on epoch 5
+Model 0 test mae = 6.086070
+Model 0 test band_gap mae = 6.086070
+Ensemble test mae = 6.086070
+Ensemble test band_gap mae = 6.086070
+==================== fold 1 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 3.608905 on epoch 21
+Model 0 test mae = 3.642490
+Model 0 test band_gap mae = 3.642490
+Ensemble test mae = 3.642490
+Ensemble test band_gap mae = 3.642490
+==================== fold 2 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 1.863712 on epoch 4
+Model 0 test mae = 1.005071
+Model 0 test band_gap mae = 1.005071
+Ensemble test mae = 1.005071
+Ensemble test band_gap mae = 1.005071
+==================== fold 3 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 1.607328 on epoch 3
+Model 0 test mae = 0.774039
+Model 0 test band_gap mae = 0.774039
+Ensemble test mae = 0.774039
+Ensemble test band_gap mae = 0.774039
+==================== fold 4 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 1.373377 on epoch 3
+Model 0 test mae = 1.236446
+Model 0 test band_gap mae = 1.236446
+Ensemble test mae = 1.236446
+Ensemble test band_gap mae = 1.236446
+==================== fold 5 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 0.492771 on epoch 62
+Model 0 test mae = 0.125988
+Model 0 test band_gap mae = 0.125988
+Ensemble test mae = 0.125988
+Ensemble test band_gap mae = 0.125988
+==================== fold 6 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 0.875368 on epoch 49
+Model 0 test mae = 0.261646
+Model 0 test band_gap mae = 0.261646
+Ensemble test mae = 0.261646
+Ensemble test band_gap mae = 0.261646
+==================== fold 7 ====================
+Total size = 927 | train size = 743 | val size = 92 | test size = 92
+Fitting scaler
+Model 0 best validation mae = 0.950348 on epoch 4
+Model 0 test mae = 0.303195
+Model 0 test band_gap mae = 0.303195
+Ensemble test mae = 0.303195
+Ensemble test band_gap mae = 0.303195
+==================== fold 8 ====================
+Total size = 927 | train size = 743 | val size = 92 | test size = 92
+Fitting scaler
+Model 0 best validation mae = 1.049854 on epoch 12
+Model 0 test mae = 0.611575
+Model 0 test band_gap mae = 0.611575
+Ensemble test mae = 0.611575
+Ensemble test band_gap mae = 0.611575
+==================== fold 9 ====================
+Total size = 927 | train size = 743 | val size = 92 | test size = 92
+Fitting scaler
+Model 0 best validation mae = 0.658372 on epoch 1
+Model 0 test mae = 0.509787
+Model 0 test band_gap mae = 0.509787
+Ensemble test mae = 0.509787
+Ensemble test band_gap mae = 0.509787
+10-fold cross validation
+Seed 0
+Fold 0 ==> valid mae = 7.985044 test mae = 6.086070
+Fold 0 ==> valid band_gap mae = 7.985044test band_gap mae = 6.086070
+Fold 1 ==> valid mae = 3.608905 test mae = 3.642490
+Fold 1 ==> valid band_gap mae = 3.608905test band_gap mae = 3.642490
+Fold 2 ==> valid mae = 1.863712 test mae = 1.005071
+Fold 2 ==> valid band_gap mae = 1.863712test band_gap mae = 1.005071
+Fold 3 ==> valid mae = 1.607328 test mae = 0.774039
+Fold 3 ==> valid band_gap mae = 1.607328test band_gap mae = 0.774039
+Fold 4 ==> valid mae = 1.373377 test mae = 1.236446
+Fold 4 ==> valid band_gap mae = 1.373377test band_gap mae = 1.236446
+Fold 5 ==> valid mae = 0.492771 test mae = 0.125988
+Fold 5 ==> valid band_gap mae = 0.492771test band_gap mae = 0.125988
+Fold 6 ==> valid mae = 0.875368 test mae = 0.261646
+Fold 6 ==> valid band_gap mae = 0.875368test band_gap mae = 0.261646
+Fold 7 ==> valid mae = 0.950348 test mae = 0.303195
+Fold 7 ==> valid band_gap mae = 0.950348test band_gap mae = 0.303195
+Fold 8 ==> valid mae = 1.049854 test mae = 0.611575
+Fold 8 ==> valid band_gap mae = 1.049854test band_gap mae = 0.611575
+Fold 9 ==> valid mae = 0.658372 test mae = 0.509787
+Fold 9 ==> valid band_gap mae = 0.658372test band_gap mae = 0.509787
+Overall valid mae = 2.046508 +/- 2.151608
+Overall test mae = 1.455631 +/- 1.818451
+Overall test band_gap mae = 1.455631 +/- 1.818451
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 7.406875 on epoch 0
+Model 0 test mae = 4.701292
+Model 0 test band_gap mae = 4.701292
+Ensemble test mae = 4.701292
+Ensemble test band_gap mae = 4.701292
+==================== fold 1 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 3.937725 on epoch 30
+Model 0 test mae = 4.959343
+Model 0 test band_gap mae = 4.959343
+Ensemble test mae = 4.959343
+Ensemble test band_gap mae = 4.959343
+==================== fold 2 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 9.540726 on epoch 3
+Model 0 test mae = 6.978208
+Model 0 test band_gap mae = 6.978208
+Ensemble test mae = 6.978208
+Ensemble test band_gap mae = 6.978208
+==================== fold 1 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 3.368571 on epoch 63
+Model 0 test mae = 1.662631
+Model 0 test band_gap mae = 1.662631
+Ensemble test mae = 1.662631
+Ensemble test band_gap mae = 1.662631
+==================== fold 2 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 1.724782 on epoch 5
+Model 0 test mae = 0.857358
+Model 0 test band_gap mae = 0.857358
+Ensemble test mae = 0.857358
+Ensemble test band_gap mae = 0.857358
+==================== fold 3 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 1.555866 on epoch 11
+Model 0 test mae = 0.680146
+Model 0 test band_gap mae = 0.680146
+Ensemble test mae = 0.680146
+Ensemble test band_gap mae = 0.680146
+==================== fold 4 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 0.939587 on epoch 3
+Model 0 test mae = 0.844119
+Model 0 test band_gap mae = 0.844119
+Ensemble test mae = 0.844119
+Ensemble test band_gap mae = 0.844119
+==================== fold 5 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 0.510958 on epoch 12
+Model 0 test mae = 0.161002
+Model 0 test band_gap mae = 0.161002
+Ensemble test mae = 0.161002
+Ensemble test band_gap mae = 0.161002
+==================== fold 6 ====================
+Total size = 927 | train size = 742 | val size = 92 | test size = 93
+Fitting scaler
+Model 0 best validation mae = 0.945081 on epoch 33
+Model 0 test mae = 0.329211
+Model 0 test band_gap mae = 0.329211
+Ensemble test mae = 0.329211
+Ensemble test band_gap mae = 0.329211
+==================== fold 7 ====================
+Total size = 927 | train size = 743 | val size = 92 | test size = 92
+Fitting scaler
+Model 0 best validation mae = 1.043231 on epoch 0
+Model 0 test mae = 0.515078
+Model 0 test band_gap mae = 0.515078
+Ensemble test mae = 0.515078
+Ensemble test band_gap mae = 0.515078
+==================== fold 8 ====================
+Total size = 927 | train size = 743 | val size = 92 | test size = 92
+Fitting scaler
+Model 0 best validation mae = 0.981767 on epoch 0
+Model 0 test mae = 0.458283
+Model 0 test band_gap mae = 0.458283
+Ensemble test mae = 0.458283
+Ensemble test band_gap mae = 0.458283
+==================== fold 9 ====================
+Total size = 927 | train size = 743 | val size = 92 | test size = 92
+Fitting scaler
+Model 0 best validation mae = 0.811534 on epoch 0
+Model 0 test mae = 0.675329
+Model 0 test band_gap mae = 0.675329
+Ensemble test mae = 0.675329
+Ensemble test band_gap mae = 0.675329
+10-fold cross validation
+Seed 0
+Fold 0 ==> valid mae = 9.540726 test mae = 6.978208
+Fold 0 ==> valid band_gap mae = 9.540726test band_gap mae = 6.978208
+Fold 1 ==> valid mae = 3.368571 test mae = 1.662631
+Fold 1 ==> valid band_gap mae = 3.368571test band_gap mae = 1.662631
+Fold 2 ==> valid mae = 1.724782 test mae = 0.857358
+Fold 2 ==> valid band_gap mae = 1.724782test band_gap mae = 0.857358
+Fold 3 ==> valid mae = 1.555866 test mae = 0.680146
+Fold 3 ==> valid band_gap mae = 1.555866test band_gap mae = 0.680146
+Fold 4 ==> valid mae = 0.939587 test mae = 0.844119
+Fold 4 ==> valid band_gap mae = 0.939587test band_gap mae = 0.844119
+Fold 5 ==> valid mae = 0.510958 test mae = 0.161002
+Fold 5 ==> valid band_gap mae = 0.510958test band_gap mae = 0.161002
+Fold 6 ==> valid mae = 0.945081 test mae = 0.329211
+Fold 6 ==> valid band_gap mae = 0.945081test band_gap mae = 0.329211
+Fold 7 ==> valid mae = 1.043231 test mae = 0.515078
+Fold 7 ==> valid band_gap mae = 1.043231test band_gap mae = 0.515078
+Fold 8 ==> valid mae = 0.981767 test mae = 0.458283
+Fold 8 ==> valid band_gap mae = 0.981767test band_gap mae = 0.458283
+Fold 9 ==> valid mae = 0.811534 test mae = 0.675329
+Fold 9 ==> valid band_gap mae = 0.811534test band_gap mae = 0.675329
+Overall valid mae = 2.142210 +/- 2.581192
+Overall test mae = 1.316137 +/- 1.926486
+Overall test band_gap mae = 1.316137 +/- 1.926486
+Loading data
+Loading data
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 10.365677 on epoch 0
+Model 0 test mae = 9.837577
+Model 0 test band_gap mae = 9.837577
+Ensemble test mae = 9.837577
+Ensemble test band_gap mae = 9.837577
+==================== fold 1 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 6.986115 on epoch 2
+Model 0 test mae = 4.017481
+Model 0 test band_gap mae = 4.017481
+Ensemble test mae = 4.017481
+Ensemble test band_gap mae = 4.017481
+==================== fold 2 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 4.186166 on epoch 11
+Model 0 test mae = 2.816748
+Model 0 test band_gap mae = 2.816748
+Ensemble test mae = 2.816748
+Ensemble test band_gap mae = 2.816748
+==================== fold 3 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 2.827920 on epoch 62
+Model 0 test mae = 0.464148
+Model 0 test band_gap mae = 0.464148
+Ensemble test mae = 0.464148
+Ensemble test band_gap mae = 0.464148
+==================== fold 4 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 1.986925 on epoch 7
+Model 0 test mae = 1.713111
+Model 0 test band_gap mae = 1.713111
+Ensemble test mae = 1.713111
+Ensemble test band_gap mae = 1.713111
+==================== fold 5 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.586861 on epoch 26
+Model 0 test mae = 0.622898
+Model 0 test band_gap mae = 0.622898
+Ensemble test mae = 0.622898
+Ensemble test band_gap mae = 0.622898
+==================== fold 6 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.513634 on epoch 13
+Model 0 test mae = 0.545172
+Model 0 test band_gap mae = 0.545172
+Ensemble test mae = 0.545172
+Ensemble test band_gap mae = 0.545172
+==================== fold 7 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.450304 on epoch 1
+Model 0 test mae = 0.448352
+Model 0 test band_gap mae = 0.448352
+Ensemble test mae = 0.448352
+Ensemble test band_gap mae = 0.448352
+==================== fold 8 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.468746 on epoch 2
+Model 0 test mae = 0.267900
+Model 0 test band_gap mae = 0.267900
+Ensemble test mae = 0.267900
+Ensemble test band_gap mae = 0.267900
+==================== fold 9 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.612693 on epoch 13
+Model 0 test mae = 0.355680
+Model 0 test band_gap mae = 0.355680
+Ensemble test mae = 0.355680
+Ensemble test band_gap mae = 0.355680
+10-fold cross validation
+Seed 0
+Fold 0 ==> valid mae = 10.365677 test mae = 9.837577
+Fold 0 ==> valid band_gap mae = 10.365677test band_gap mae = 9.837577
+Fold 1 ==> valid mae = 6.986115 test mae = 4.017481
+Fold 1 ==> valid band_gap mae = 6.986115test band_gap mae = 4.017481
+Fold 2 ==> valid mae = 4.186166 test mae = 2.816748
+Fold 2 ==> valid band_gap mae = 4.186166test band_gap mae = 2.816748
+Fold 3 ==> valid mae = 2.827920 test mae = 0.464148
+Fold 3 ==> valid band_gap mae = 2.827920test band_gap mae = 0.464148
+Fold 4 ==> valid mae = 1.986925 test mae = 1.713111
+Fold 4 ==> valid band_gap mae = 1.986925test band_gap mae = 1.713111
+Fold 5 ==> valid mae = 0.586861 test mae = 0.622898
+Fold 5 ==> valid band_gap mae = 0.586861test band_gap mae = 0.622898
+Fold 6 ==> valid mae = 0.513634 test mae = 0.545172
+Fold 6 ==> valid band_gap mae = 0.513634test band_gap mae = 0.545172
+Fold 7 ==> valid mae = 0.450304 test mae = 0.448352
+Fold 7 ==> valid band_gap mae = 0.450304test band_gap mae = 0.448352
+Fold 8 ==> valid mae = 0.468746 test mae = 0.267900
+Fold 8 ==> valid band_gap mae = 0.468746test band_gap mae = 0.267900
+Fold 9 ==> valid mae = 0.612693 test mae = 0.355680
+Fold 9 ==> valid band_gap mae = 0.612693test band_gap mae = 0.355680
+Overall valid mae = 2.898504 +/- 3.211151
+Overall test mae = 2.108907 +/- 2.839224
+Overall test band_gap mae = 2.108907 +/- 2.839224
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 1.468933 on epoch 3
+Model 0 test mae = 1.519323
+Model 0 test band_gap mae = 1.519323
+Ensemble test mae = 1.519323
+Ensemble test band_gap mae = 1.519323
+==================== fold 1 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 1.238708 on epoch 0
+Model 0 test mae = 0.797192
+Model 0 test band_gap mae = 0.797192
+Ensemble test mae = 0.797192
+Ensemble test band_gap mae = 0.797192
+==================== fold 2 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 1.100163 on epoch 2
+Model 0 test mae = 1.032439
+Model 0 test band_gap mae = 1.032439
+Ensemble test mae = 1.032439
+Ensemble test band_gap mae = 1.032439
+==================== fold 3 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 1.013012 on epoch 69
+Model 0 test mae = 0.708166
+Model 0 test band_gap mae = 0.708166
+Ensemble test mae = 0.708166
+Ensemble test band_gap mae = 0.708166
+==================== fold 4 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.809669 on epoch 0
+Model 0 test mae = 0.881562
+Model 0 test band_gap mae = 0.881562
+Ensemble test mae = 0.881562
+Ensemble test band_gap mae = 0.881562
+==================== fold 5 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.913943 on epoch 1
+Model 0 test mae = 0.511758
+Model 0 test band_gap mae = 0.511758
+Ensemble test mae = 0.511758
+Ensemble test band_gap mae = 0.511758
+==================== fold 6 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.862631 on epoch 1
+Model 0 test mae = 0.779568
+Model 0 test band_gap mae = 0.779568
+Ensemble test mae = 0.779568
+Ensemble test band_gap mae = 0.779568
+==================== fold 7 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.832961 on epoch 47
+Model 0 test mae = 0.815625
+Model 0 test band_gap mae = 0.815625
+Ensemble test mae = 0.815625
+Ensemble test band_gap mae = 0.815625
+==================== fold 8 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.779857 on epoch 1
+Model 0 test mae = 0.638213
+Model 0 test band_gap mae = 0.638213
+Ensemble test mae = 0.638213
+Ensemble test band_gap mae = 0.638213
+==================== fold 9 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.926695 on epoch 57
+Model 0 test mae = 0.708071
+Model 0 test band_gap mae = 0.708071
+Ensemble test mae = 0.708071
+Ensemble test band_gap mae = 0.708071
+10-fold cross validation
+Seed 0
+Fold 0 ==> valid mae = 1.468933 test mae = 1.519323
+Fold 0 ==> valid band_gap mae = 1.468933test band_gap mae = 1.519323
+Fold 1 ==> valid mae = 1.238708 test mae = 0.797192
+Fold 1 ==> valid band_gap mae = 1.238708test band_gap mae = 0.797192
+Fold 2 ==> valid mae = 1.100163 test mae = 1.032439
+Fold 2 ==> valid band_gap mae = 1.100163test band_gap mae = 1.032439
+Fold 3 ==> valid mae = 1.013012 test mae = 0.708166
+Fold 3 ==> valid band_gap mae = 1.013012test band_gap mae = 0.708166
+Fold 4 ==> valid mae = 0.809669 test mae = 0.881562
+Fold 4 ==> valid band_gap mae = 0.809669test band_gap mae = 0.881562
+Fold 5 ==> valid mae = 0.913943 test mae = 0.511758
+Fold 5 ==> valid band_gap mae = 0.913943test band_gap mae = 0.511758
+Fold 6 ==> valid mae = 0.862631 test mae = 0.779568
+Fold 6 ==> valid band_gap mae = 0.862631test band_gap mae = 0.779568
+Fold 7 ==> valid mae = 0.832961 test mae = 0.815625
+Fold 7 ==> valid band_gap mae = 0.832961test band_gap mae = 0.815625
+Fold 8 ==> valid mae = 0.779857 test mae = 0.638213
+Fold 8 ==> valid band_gap mae = 0.779857test band_gap mae = 0.638213
+Fold 9 ==> valid mae = 0.926695 test mae = 0.708071
+Fold 9 ==> valid band_gap mae = 0.926695test band_gap mae = 0.708071
+Overall valid mae = 0.994657 +/- 0.207614
+Overall test mae = 0.839192 +/- 0.262594
+Overall test band_gap mae = 0.839192 +/- 0.262594
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 1.539843 on epoch 3
+Model 0 test mae = 1.528940
+Model 0 test band_gap mae = 1.528940
+Ensemble test mae = 1.528940
+Ensemble test band_gap mae = 1.528940
+==================== fold 1 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 1.250391 on epoch 1
+Model 0 test mae = 0.910670
+Model 0 test band_gap mae = 0.910670
+Ensemble test mae = 0.910670
+Ensemble test band_gap mae = 0.910670
+==================== fold 2 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 1.142645 on epoch 4
+Model 0 test mae = 0.670937
+Model 0 test band_gap mae = 0.670937
+Ensemble test mae = 0.670937
+Ensemble test band_gap mae = 0.670937
+==================== fold 3 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 1.061614 on epoch 27
+Model 0 test mae = 0.768339
+Model 0 test band_gap mae = 0.768339
+Ensemble test mae = 0.768339
+Ensemble test band_gap mae = 0.768339
+==================== fold 4 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.830580 on epoch 65
+Model 0 test mae = 0.823758
+Model 0 test band_gap mae = 0.823758
+Ensemble test mae = 0.823758
+Ensemble test band_gap mae = 0.823758
+==================== fold 5 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.915158 on epoch 1
+Model 0 test mae = 0.527102
+Model 0 test band_gap mae = 0.527102
+Ensemble test mae = 0.527102
+Ensemble test band_gap mae = 0.527102
+==================== fold 6 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.867300 on epoch 43
+Model 0 test mae = 0.924350
+Model 0 test band_gap mae = 0.924350
+Ensemble test mae = 0.924350
+Ensemble test band_gap mae = 0.924350
+==================== fold 7 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.891755 on epoch 2
+Model 0 test mae = 0.689186
+Model 0 test band_gap mae = 0.689186
+Ensemble test mae = 0.689186
+Ensemble test band_gap mae = 0.689186
+==================== fold 8 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.770912 on epoch 52
+Model 0 test mae = 0.561241
+Model 0 test band_gap mae = 0.561241
+Ensemble test mae = 0.561241
+Ensemble test band_gap mae = 0.561241
+==================== fold 9 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+Model 0 best validation mae = 0.974954 on epoch 42
+Model 0 test mae = 0.709984
+Model 0 test band_gap mae = 0.709984
+Ensemble test mae = 0.709984
+Ensemble test band_gap mae = 0.709984
+10-fold cross validation
+Seed 0
+Fold 0 ==> valid mae = 1.539843 test mae = 1.528940
+Fold 0 ==> valid band_gap mae = 1.539843test band_gap mae = 1.528940
+Fold 1 ==> valid mae = 1.250391 test mae = 0.910670
+Fold 1 ==> valid band_gap mae = 1.250391test band_gap mae = 0.910670
+Fold 2 ==> valid mae = 1.142645 test mae = 0.670937
+Fold 2 ==> valid band_gap mae = 1.142645test band_gap mae = 0.670937
+Fold 3 ==> valid mae = 1.061614 test mae = 0.768339
+Fold 3 ==> valid band_gap mae = 1.061614test band_gap mae = 0.768339
+Fold 4 ==> valid mae = 0.830580 test mae = 0.823758
+Fold 4 ==> valid band_gap mae = 0.830580test band_gap mae = 0.823758
+Fold 5 ==> valid mae = 0.915158 test mae = 0.527102
+Fold 5 ==> valid band_gap mae = 0.915158test band_gap mae = 0.527102
+Fold 6 ==> valid mae = 0.867300 test mae = 0.924350
+Fold 6 ==> valid band_gap mae = 0.867300test band_gap mae = 0.924350
+Fold 7 ==> valid mae = 0.891755 test mae = 0.689186
+Fold 7 ==> valid band_gap mae = 0.891755test band_gap mae = 0.689186
+Fold 8 ==> valid mae = 0.770912 test mae = 0.561241
+Fold 8 ==> valid band_gap mae = 0.770912test band_gap mae = 0.561241
+Fold 9 ==> valid mae = 0.974954 test mae = 0.709984
+Fold 9 ==> valid band_gap mae = 0.974954test band_gap mae = 0.709984
+Overall valid mae = 1.024515 +/- 0.221494
+Overall test mae = 0.811451 +/- 0.269785
+Overall test band_gap mae = 0.811451 +/- 0.269785
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Model 0 best validation mae = 1.645069 on epoch 1
+Model 0 test mae = 1.622954
+Model 0 test band_gap mae = 1.622954
+Ensemble test mae = 1.622954
+Ensemble test band_gap mae = 1.622954
+==================== fold 1 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 10.039740 on epoch 1
+Model 0 test mae = 7.213766
+Model 0 test band_gap mae = 7.213766
+Ensemble test mae = 7.213766
+Ensemble test band_gap mae = 7.213766
+==================== fold 1 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 6.856541 on epoch 62
+Model 0 test mae = 1.898207
+Model 0 test band_gap mae = 1.898207
+Ensemble test mae = 1.898207
+Ensemble test band_gap mae = 1.898207
+==================== fold 2 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 4.805439 on epoch 58
+Model 0 test mae = 4.332034
+Model 0 test band_gap mae = 4.332034
+Ensemble test mae = 4.332034
+Ensemble test band_gap mae = 4.332034
+==================== fold 3 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 2.742813 on epoch 45
+Model 0 test mae = 0.528370
+Model 0 test band_gap mae = 0.528370
+Ensemble test mae = 0.528370
+Ensemble test band_gap mae = 0.528370
+==================== fold 4 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+None
+Model 0 best validation mae = 1.737018 on epoch 1
+Model 0 test mae = 1.591983
+Model 0 test band_gap mae = 1.591983
+Ensemble test mae = 1.591983
+Ensemble test band_gap mae = 1.591983
+==================== fold 5 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+None
+Model 0 best validation mae = 0.547648 on epoch 70
+Model 0 test mae = 0.316293
+Model 0 test band_gap mae = 0.316293
+Ensemble test mae = 0.316293
+Ensemble test band_gap mae = 0.316293
+==================== fold 6 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+None
+Model 0 best validation mae = 0.465803 on epoch 9
+Model 0 test mae = 0.490483
+Model 0 test band_gap mae = 0.490483
+Ensemble test mae = 0.490483
+Ensemble test band_gap mae = 0.490483
+==================== fold 7 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+None
+Model 0 best validation mae = 0.548481 on epoch 53
+Model 0 test mae = 0.650434
+Model 0 test band_gap mae = 0.650434
+Ensemble test mae = 0.650434
+Ensemble test band_gap mae = 0.650434
+==================== fold 8 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+None
+Model 0 best validation mae = 0.524640 on epoch 1
+Model 0 test mae = 0.324662
+Model 0 test band_gap mae = 0.324662
+Ensemble test mae = 0.324662
+Ensemble test band_gap mae = 0.324662
+==================== fold 9 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+None
+Model 0 best validation mae = 0.697416 on epoch 2
+Model 0 test mae = 0.424399
+Model 0 test band_gap mae = 0.424399
+Ensemble test mae = 0.424399
+Ensemble test band_gap mae = 0.424399
+10-fold cross validation
+Seed 0
+Fold 0 ==> valid mae = 10.039740 test mae = 7.213766
+Fold 0 ==> valid band_gap mae = 10.039740test band_gap mae = 7.213766
+Fold 1 ==> valid mae = 6.856541 test mae = 1.898207
+Fold 1 ==> valid band_gap mae = 6.856541test band_gap mae = 1.898207
+Fold 2 ==> valid mae = 4.805439 test mae = 4.332034
+Fold 2 ==> valid band_gap mae = 4.805439test band_gap mae = 4.332034
+Fold 3 ==> valid mae = 2.742813 test mae = 0.528370
+Fold 3 ==> valid band_gap mae = 2.742813test band_gap mae = 0.528370
+Fold 4 ==> valid mae = 1.737018 test mae = 1.591983
+Fold 4 ==> valid band_gap mae = 1.737018test band_gap mae = 1.591983
+Fold 5 ==> valid mae = 0.547648 test mae = 0.316293
+Fold 5 ==> valid band_gap mae = 0.547648test band_gap mae = 0.316293
+Fold 6 ==> valid mae = 0.465803 test mae = 0.490483
+Fold 6 ==> valid band_gap mae = 0.465803test band_gap mae = 0.490483
+Fold 7 ==> valid mae = 0.548481 test mae = 0.650434
+Fold 7 ==> valid band_gap mae = 0.548481test band_gap mae = 0.650434
+Fold 8 ==> valid mae = 0.524640 test mae = 0.324662
+Fold 8 ==> valid band_gap mae = 0.524640test band_gap mae = 0.324662
+Fold 9 ==> valid mae = 0.697416 test mae = 0.424399
+Fold 9 ==> valid band_gap mae = 0.697416test band_gap mae = 0.424399
+Overall valid mae = 2.896554 +/- 3.148335
+Overall test mae = 1.777063 +/- 2.160819
+Overall test band_gap mae = 1.777063 +/- 2.160819
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+(array([  0,   1,   2,   3,   4,   5,   6,   7,   8,   9,  10,  11,  12,
+        13,  15,  16,  17,  18,  19,  20,  21,  22,  23,  24,  25,  26,
+        27,  28,  29,  30,  32,  33,  34,  35,  36,  37,  38,  39,  40,
+        41,  42,  43,  44,  45,  46,  47,  48,  49,  50,  51,  52,  53,
+        54,  56,  57,  58,  59,  61,  62,  63,  64,  66,  67,  68,  69,
+        70,  71,  72,  73,  74,  75,  76,  78,  79,  80,  81,  82,  83,
+        84,  85,  86,  87,  88,  89,  90,  91,  92,  93,  94,  95,  96,
+        98,  99, 100, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111,
+       112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 123, 124, 125,
+       126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138,
+       139, 140, 143, 144, 146, 147, 148, 149, 150, 151, 152, 153, 154,
+       155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167,
+       168, 169, 170, 171, 172, 173, 174, 176, 177, 178, 179, 180, 181,
+       182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194,
+       195, 197, 198, 199, 201, 202, 203, 204, 205, 206, 207, 208, 209,
+       210, 211, 212, 213, 214, 216, 217, 218, 219, 220, 221, 222, 223,
+       224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236,
+       237, 238, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251,
+       253, 254, 255, 256, 257, 258, 259, 260, 263, 264, 265, 266, 267,
+       268, 269, 270, 271, 273, 274, 275, 276, 277, 278, 280, 281, 282,
+       283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 296,
+       297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309,
+       311, 312, 313, 314, 315, 316, 317, 318, 320, 321, 322, 323, 324,
+       325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337,
+       339, 340, 341, 343, 344, 347, 348, 349, 350, 351, 353, 354, 355,
+       356, 357, 358, 359, 360, 361, 365, 366, 367, 368, 369, 370, 371,
+       372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 383, 384, 387,
+       388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400,
+       401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 414,
+       417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429,
+       430, 431, 432, 433, 435, 437, 438, 439, 440, 441, 442, 443, 444,
+       445, 446, 447, 448, 449, 450, 451, 453, 454, 455, 456, 457, 458,
+       459, 460, 461, 462, 463, 464, 466, 467, 468, 469, 470, 471, 472,
+       473, 474, 475, 476, 477, 479, 480, 481, 482, 484, 486, 487, 488,
+       489, 490, 491, 492, 493, 494, 496, 497, 498, 499, 500, 501, 502,
+       503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515,
+       517, 518, 519, 520, 523, 525, 526, 527, 528, 530, 531, 532, 533,
+       534, 536, 537, 538, 539, 540, 541, 542, 543, 544, 546, 547, 548,
+       550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562,
+       563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575,
+       576, 577, 578, 579, 580, 581, 583, 584, 585, 586, 587, 588, 589,
+       590, 591, 592, 593, 594, 595, 596, 598, 599, 600, 601, 603, 604,
+       605, 606, 607, 609, 610, 611, 613, 614, 615, 616, 617, 619, 620,
+       621, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634,
+       635, 636, 637, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648,
+       649, 650, 651, 652, 653, 655, 657, 658, 659, 660, 661, 662, 663,
+       664, 665, 666, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677,
+       678, 679, 680, 681, 682, 683, 684, 685, 686, 689, 690, 691, 692,
+       693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705,
+       706, 707, 709, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720,
+       721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733,
+       734, 735, 736, 738, 739, 742, 743, 744, 745, 746, 747, 748, 749,
+       750, 751, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764,
+       765, 766, 767, 768, 770, 771, 772, 774, 775, 776, 777, 778, 779,
+       780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792,
+       793, 794, 795, 796, 797, 799, 800, 801, 802, 803, 804, 805, 806,
+       807, 808, 809, 811, 813, 814, 816, 817, 818, 819, 820, 821, 823,
+       824, 825, 826, 827, 828, 830, 831, 832, 833, 834, 835, 836, 838,
+       839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851,
+       852, 853, 854, 856, 857, 859, 860, 861, 862, 863, 864, 865, 866,
+       868, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881,
+       882, 883, 884, 886, 887, 888, 889, 890, 892, 893, 894, 895, 896,
+       897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909,
+       910, 911, 912, 913, 914, 915, 916, 917, 918, 920, 921, 922, 923,
+       924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936,
+       937, 938, 939, 942]), array([ 14,  31,  55,  60,  65,  77,  97, 101, 122, 141, 142, 145, 175,
+       196, 200, 215, 239, 240, 252, 261, 262, 272, 279, 295, 310, 319,
+       338, 342, 345, 346, 352, 362, 363, 364, 382, 385, 386, 413, 415,
+       416, 434, 436, 452, 465, 478, 483, 485, 495, 516, 521, 522, 524,
+       529, 535, 545, 549, 582, 597, 602, 608, 612, 618, 622, 638, 654,
+       656, 667, 687, 688, 708, 710, 737, 740, 741, 752, 753, 769, 773,
+       798, 810, 812, 815, 822, 829, 837, 855, 858, 867, 869, 885, 891,
+       919, 940, 941, 943]))
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 11.325145 on epoch 1
+Model 0 test mae = 11.889321
+Model 0 test band_gap mae = 11.889321
+Ensemble test mae = 11.889321
+Ensemble test band_gap mae = 11.889321
+==================== fold 1 ====================
+(array([  0,   1,   2,   3,   4,   6,   7,   9,  10,  11,  12,  13,  14,
+        15,  16,  17,  18,  19,  20,  21,  22,  23,  24,  25,  26,  28,
+        29,  31,  32,  33,  35,  36,  38,  39,  41,  42,  43,  44,  45,
+        46,  47,  48,  49,  50,  51,  52,  53,  54,  55,  56,  57,  58,
+        59,  60,  61,  63,  64,  65,  66,  67,  68,  69,  70,  71,  72,
+        73,  74,  75,  76,  77,  78,  80,  81,  82,  83,  84,  85,  86,
+        87,  88,  89,  90,  91,  92,  93,  94,  95,  96,  97,  98,  99,
+       100, 101, 102, 104, 105, 106, 107, 108, 109, 110, 111, 112, 114,
+       115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127,
+       128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140,
+       141, 142, 143, 145, 146, 147, 148, 149, 151, 152, 153, 155, 156,
+       157, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170,
+       171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 182, 183, 184,
+       185, 186, 187, 188, 189, 190, 191, 192, 194, 195, 196, 197, 198,
+       199, 200, 201, 202, 203, 205, 206, 207, 208, 209, 210, 211, 212,
+       213, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226,
+       227, 228, 229, 232, 233, 234, 235, 237, 238, 239, 240, 241, 242,
+       243, 244, 245, 246, 248, 249, 250, 252, 254, 255, 256, 257, 258,
+       259, 260, 261, 262, 263, 264, 265, 268, 269, 271, 272, 273, 274,
+       275, 276, 277, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288,
+       289, 290, 291, 292, 295, 296, 297, 299, 300, 301, 302, 303, 304,
+       305, 307, 309, 310, 312, 313, 314, 315, 316, 317, 318, 319, 321,
+       322, 323, 324, 325, 326, 327, 328, 329, 330, 333, 334, 335, 336,
+       337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349,
+       351, 352, 353, 354, 355, 356, 357, 359, 360, 361, 362, 363, 364,
+       365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377,
+       378, 380, 381, 382, 383, 384, 385, 386, 387, 388, 390, 391, 392,
+       393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 404, 405, 407,
+       408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 421,
+       422, 423, 424, 426, 428, 429, 430, 431, 432, 433, 434, 435, 436,
+       437, 438, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451,
+       452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 463, 464, 465,
+       467, 468, 469, 470, 472, 473, 474, 475, 476, 477, 478, 479, 480,
+       482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494,
+       495, 496, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508,
+       509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521,
+       522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534,
+       535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547,
+       548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560,
+       561, 562, 563, 564, 565, 566, 567, 570, 571, 573, 574, 575, 577,
+       579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591,
+       592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604,
+       605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617,
+       618, 619, 620, 621, 622, 623, 625, 626, 627, 628, 629, 630, 631,
+       632, 633, 634, 636, 637, 638, 639, 640, 641, 642, 644, 645, 646,
+       647, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661,
+       662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 673, 675, 676,
+       677, 679, 680, 681, 682, 684, 685, 686, 687, 688, 689, 690, 691,
+       692, 693, 694, 695, 696, 697, 698, 699, 701, 702, 703, 704, 705,
+       706, 707, 708, 709, 710, 711, 712, 714, 715, 716, 718, 719, 720,
+       721, 722, 723, 724, 726, 727, 729, 732, 733, 734, 735, 736, 737,
+       738, 739, 740, 741, 742, 743, 744, 746, 747, 748, 749, 750, 752,
+       753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765,
+       766, 767, 768, 769, 770, 773, 774, 775, 776, 777, 778, 779, 780,
+       781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793,
+       794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806,
+       807, 808, 809, 810, 811, 812, 815, 816, 817, 819, 820, 821, 822,
+       823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835,
+       837, 838, 840, 842, 844, 845, 846, 847, 848, 849, 850, 851, 852,
+       853, 854, 855, 856, 857, 858, 859, 861, 862, 863, 864, 865, 866,
+       867, 868, 869, 870, 872, 873, 874, 876, 877, 878, 879, 880, 881,
+       882, 883, 884, 885, 886, 887, 888, 889, 890, 891, 892, 893, 895,
+       896, 897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908,
+       910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922,
+       923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 934, 935, 937,
+       938, 940, 941, 943]), array([  5,   8,  27,  30,  34,  37,  40,  62,  79, 103, 113, 144, 150,
+       154, 158, 181, 193, 204, 214, 230, 231, 236, 247, 251, 253, 266,
+       267, 270, 278, 293, 294, 298, 306, 308, 311, 320, 331, 332, 350,
+       358, 379, 389, 403, 406, 420, 425, 427, 439, 440, 462, 466, 471,
+       481, 497, 568, 569, 572, 576, 578, 624, 635, 643, 648, 649, 672,
+       674, 678, 683, 700, 713, 717, 725, 728, 730, 731, 745, 751, 771,
+       772, 813, 814, 818, 836, 839, 841, 843, 860, 871, 875, 894, 909,
+       933, 936, 939, 942]))
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 6.965872 on epoch 12
+Model 0 test mae = 4.050971
+Model 0 test band_gap mae = 4.050971
+Ensemble test mae = 4.050971
+Ensemble test band_gap mae = 4.050971
+==================== fold 2 ====================
+(array([  0,   3,   4,   5,   6,   7,   8,   9,  11,  12,  13,  14,  15,
+        16,  17,  19,  21,  22,  23,  24,  25,  26,  27,  28,  29,  30,
+        31,  32,  33,  34,  35,  36,  37,  38,  40,  41,  42,  43,  44,
+        46,  47,  48,  51,  52,  53,  55,  56,  57,  58,  59,  60,  61,
+        62,  63,  64,  65,  66,  67,  69,  70,  72,  73,  74,  76,  77,
+        78,  79,  80,  81,  82,  83,  84,  86,  87,  88,  89,  90,  91,
+        92,  93,  94,  95,  96,  97,  98,  99, 100, 101, 102, 103, 104,
+       106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118,
+       119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131,
+       132, 133, 134, 135, 136, 137, 138, 139, 141, 142, 143, 144, 145,
+       146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 157, 158, 159,
+       160, 161, 163, 164, 165, 166, 168, 169, 170, 171, 173, 174, 175,
+       176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188,
+       189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201,
+       203, 204, 205, 206, 207, 208, 209, 211, 212, 213, 214, 215, 216,
+       217, 218, 219, 220, 221, 223, 224, 225, 226, 227, 228, 229, 230,
+       231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243,
+       244, 245, 246, 247, 248, 250, 251, 252, 253, 254, 256, 257, 259,
+       260, 261, 262, 263, 265, 266, 267, 268, 269, 270, 272, 273, 274,
+       275, 276, 277, 278, 279, 280, 281, 282, 284, 286, 287, 288, 289,
+       290, 291, 292, 293, 294, 295, 296, 297, 298, 300, 301, 302, 303,
+       305, 306, 307, 308, 309, 310, 311, 313, 314, 315, 316, 317, 318,
+       319, 320, 321, 322, 323, 324, 326, 327, 328, 329, 331, 332, 333,
+       334, 335, 336, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347,
+       348, 349, 350, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361,
+       362, 363, 364, 365, 367, 368, 369, 370, 371, 372, 373, 374, 375,
+       376, 377, 379, 380, 381, 382, 383, 385, 386, 387, 388, 389, 390,
+       391, 392, 393, 394, 396, 397, 398, 399, 400, 401, 402, 403, 404,
+       405, 406, 407, 408, 410, 411, 413, 414, 415, 416, 417, 419, 420,
+       421, 422, 423, 425, 426, 427, 428, 429, 430, 431, 433, 434, 435,
+       436, 437, 438, 439, 440, 441, 442, 444, 445, 446, 447, 448, 449,
+       450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462,
+       463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475,
+       476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488,
+       490, 491, 493, 495, 497, 498, 499, 500, 501, 502, 503, 504, 505,
+       507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 521,
+       522, 523, 524, 525, 527, 528, 529, 530, 531, 532, 534, 535, 536,
+       537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549,
+       550, 551, 552, 553, 554, 555, 556, 558, 559, 560, 561, 562, 563,
+       564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576,
+       577, 578, 579, 581, 582, 583, 584, 585, 586, 587, 589, 590, 591,
+       593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 606,
+       607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619,
+       620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 632, 633,
+       634, 635, 637, 638, 639, 640, 641, 642, 643, 644, 645, 647, 648,
+       649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 662,
+       663, 664, 665, 666, 667, 668, 669, 670, 672, 673, 674, 675, 676,
+       677, 678, 679, 680, 681, 683, 684, 685, 687, 688, 689, 690, 691,
+       692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704,
+       705, 707, 708, 709, 710, 711, 713, 714, 716, 717, 718, 719, 720,
+       722, 723, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 736,
+       737, 738, 739, 740, 741, 743, 744, 745, 746, 747, 748, 749, 751,
+       752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764,
+       765, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778,
+       779, 780, 782, 783, 784, 785, 786, 787, 788, 790, 791, 792, 793,
+       794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 807,
+       808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 820, 822,
+       823, 824, 825, 826, 827, 828, 829, 830, 831, 832, 833, 834, 835,
+       836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848,
+       849, 850, 851, 852, 854, 855, 857, 858, 859, 860, 861, 862, 863,
+       864, 865, 866, 867, 868, 869, 870, 871, 873, 875, 876, 877, 878,
+       879, 880, 881, 882, 883, 885, 886, 887, 889, 891, 892, 893, 894,
+       895, 896, 897, 898, 899, 900, 902, 903, 904, 906, 907, 908, 909,
+       910, 911, 912, 913, 914, 915, 916, 918, 919, 920, 921, 922, 923,
+       924, 925, 926, 927, 929, 930, 931, 932, 933, 936, 937, 938, 939,
+       940, 941, 942, 943]), array([  1,   2,  10,  18,  20,  39,  45,  49,  50,  54,  68,  71,  75,
+        85, 105, 140, 156, 162, 167, 172, 202, 210, 222, 249, 255, 258,
+       264, 271, 283, 285, 299, 304, 312, 325, 330, 337, 351, 366, 378,
+       384, 395, 409, 412, 418, 424, 432, 443, 489, 492, 494, 496, 506,
+       519, 520, 526, 533, 557, 580, 588, 592, 605, 631, 636, 646, 661,
+       671, 682, 686, 706, 712, 715, 721, 724, 735, 742, 750, 766, 781,
+       789, 806, 819, 821, 853, 856, 872, 874, 884, 888, 890, 901, 905,
+       917, 928, 934, 935]))
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 3.805305 on epoch 0
+Model 0 test mae = 1.941437
+Model 0 test band_gap mae = 1.941437
+Ensemble test mae = 1.941437
+Ensemble test band_gap mae = 1.941437
+==================== fold 3 ====================
+(array([  0,   1,   2,   3,   4,   5,   6,   7,   8,   9,  10,  11,  13,
+        14,  15,  16,  18,  19,  20,  22,  23,  24,  25,  26,  27,  28,
+        29,  30,  31,  32,  33,  34,  36,  37,  38,  39,  40,  41,  42,
+        43,  44,  45,  46,  47,  49,  50,  51,  53,  54,  55,  56,  57,
+        58,  59,  60,  61,  62,  63,  65,  66,  67,  68,  69,  70,  71,
+        72,  73,  74,  75,  77,  79,  80,  82,  83,  84,  85,  86,  87,
+        88,  89,  90,  91,  93,  94,  95,  96,  97,  98,  99, 100, 101,
+       102, 103, 104, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115,
+       117, 119, 120, 121, 122, 123, 125, 126, 128, 129, 130, 131, 132,
+       133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145,
+       146, 147, 148, 149, 150, 151, 152, 153, 154, 156, 158, 160, 161,
+       162, 163, 164, 166, 167, 168, 169, 171, 172, 173, 174, 175, 176,
+       177, 178, 179, 180, 181, 182, 183, 184, 185, 189, 190, 191, 192,
+       193, 194, 195, 196, 197, 199, 200, 201, 202, 203, 204, 205, 206,
+       207, 208, 209, 210, 212, 213, 214, 215, 216, 217, 218, 219, 220,
+       221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233,
+       234, 236, 237, 239, 240, 244, 245, 246, 247, 248, 249, 251, 252,
+       253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 264, 265, 266,
+       267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279,
+       280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292,
+       293, 294, 295, 296, 297, 298, 299, 300, 302, 303, 304, 305, 306,
+       307, 308, 309, 310, 311, 312, 313, 314, 315, 319, 320, 321, 322,
+       323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 334, 335, 336,
+       337, 338, 339, 340, 341, 342, 343, 345, 346, 347, 348, 349, 350,
+       351, 352, 353, 354, 355, 357, 358, 359, 360, 361, 362, 363, 364,
+       365, 366, 368, 369, 370, 371, 373, 374, 375, 376, 377, 378, 379,
+       381, 382, 383, 384, 385, 386, 387, 388, 389, 391, 392, 393, 394,
+       395, 396, 397, 398, 399, 400, 401, 403, 404, 405, 406, 407, 408,
+       409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421,
+       423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435,
+       436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448,
+       449, 450, 452, 453, 454, 455, 457, 459, 460, 461, 462, 463, 464,
+       465, 466, 467, 468, 469, 470, 471, 472, 473, 475, 476, 478, 480,
+       481, 482, 483, 484, 485, 486, 488, 489, 490, 491, 492, 494, 495,
+       496, 497, 498, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509,
+       510, 511, 512, 513, 514, 515, 516, 517, 519, 520, 521, 522, 523,
+       524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536,
+       537, 539, 540, 541, 542, 543, 544, 545, 546, 547, 549, 550, 551,
+       552, 553, 554, 555, 556, 557, 558, 559, 560, 562, 563, 564, 565,
+       566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578,
+       579, 580, 581, 582, 583, 584, 586, 587, 588, 589, 590, 591, 592,
+       593, 594, 595, 596, 597, 598, 599, 600, 602, 603, 604, 605, 606,
+       607, 608, 610, 611, 612, 613, 615, 616, 617, 618, 619, 620, 621,
+       622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 635,
+       636, 637, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648,
+       649, 650, 651, 652, 653, 654, 656, 657, 658, 659, 660, 661, 662,
+       663, 664, 665, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676,
+       677, 678, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690,
+       691, 693, 694, 695, 696, 697, 699, 700, 701, 702, 703, 704, 705,
+       706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718,
+       719, 720, 721, 722, 723, 724, 725, 726, 728, 729, 730, 731, 732,
+       733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745,
+       747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759,
+       761, 762, 763, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774,
+       775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 786, 788, 789,
+       790, 791, 792, 793, 794, 795, 796, 797, 798, 800, 801, 802, 803,
+       804, 805, 806, 807, 808, 810, 811, 812, 813, 814, 815, 816, 818,
+       819, 820, 821, 822, 823, 824, 825, 826, 829, 830, 831, 832, 833,
+       834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 845, 846, 847,
+       849, 850, 851, 853, 854, 855, 856, 857, 858, 859, 860, 861, 862,
+       864, 866, 867, 868, 869, 871, 872, 873, 874, 875, 876, 877, 878,
+       879, 880, 881, 882, 884, 885, 886, 887, 888, 889, 890, 891, 892,
+       893, 894, 895, 896, 897, 899, 900, 901, 902, 903, 905, 907, 909,
+       910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922,
+       923, 924, 925, 927, 928, 930, 933, 934, 935, 936, 937, 938, 939,
+       940, 941, 942, 943]), array([ 12,  17,  21,  35,  48,  52,  64,  76,  78,  81,  92, 109, 116,
+       118, 124, 127, 155, 157, 159, 165, 170, 186, 187, 188, 198, 211,
+       235, 238, 241, 242, 243, 250, 263, 301, 316, 317, 318, 333, 344,
+       356, 367, 372, 380, 390, 402, 422, 451, 456, 458, 474, 477, 479,
+       487, 493, 499, 518, 538, 548, 561, 585, 601, 609, 614, 634, 655,
+       666, 679, 692, 698, 727, 746, 760, 764, 785, 787, 799, 809, 817,
+       827, 828, 844, 848, 852, 863, 865, 870, 883, 898, 904, 906, 908,
+       926, 929, 931, 932]))
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+(array([  0,   1,   2,   3,   4,   5,   6,   7,   8,   9,  10,  11,  12,
+        13,  15,  16,  17,  18,  19,  20,  21,  22,  23,  24,  25,  26,
+        27,  28,  29,  30,  32,  33,  34,  35,  36,  37,  38,  39,  40,
+        41,  42,  43,  44,  45,  46,  47,  48,  49,  50,  51,  52,  53,
+        54,  56,  57,  58,  59,  61,  62,  63,  64,  66,  67,  68,  69,
+        70,  71,  72,  73,  74,  75,  76,  78,  79,  80,  81,  82,  83,
+        84,  85,  86,  87,  88,  89,  90,  91,  92,  93,  94,  95,  96,
+        98,  99, 100, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111,
+       112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 123, 124, 125,
+       126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138,
+       139, 140, 143, 144, 146, 147, 148, 149, 150, 151, 152, 153, 154,
+       155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167,
+       168, 169, 170, 171, 172, 173, 174, 176, 177, 178, 179, 180, 181,
+       182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194,
+       195, 197, 198, 199, 201, 202, 203, 204, 205, 206, 207, 208, 209,
+       210, 211, 212, 213, 214, 216, 217, 218, 219, 220, 221, 222, 223,
+       224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236,
+       237, 238, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251,
+       253, 254, 255, 256, 257, 258, 259, 260, 263, 264, 265, 266, 267,
+       268, 269, 270, 271, 273, 274, 275, 276, 277, 278, 280, 281, 282,
+       283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 296,
+       297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309,
+       311, 312, 313, 314, 315, 316, 317, 318, 320, 321, 322, 323, 324,
+       325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337,
+       339, 340, 341, 343, 344, 347, 348, 349, 350, 351, 353, 354, 355,
+       356, 357, 358, 359, 360, 361, 365, 366, 367, 368, 369, 370, 371,
+       372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 383, 384, 387,
+       388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400,
+       401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 414,
+       417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429,
+       430, 431, 432, 433, 435, 437, 438, 439, 440, 441, 442, 443, 444,
+       445, 446, 447, 448, 449, 450, 451, 453, 454, 455, 456, 457, 458,
+       459, 460, 461, 462, 463, 464, 466, 467, 468, 469, 470, 471, 472,
+       473, 474, 475, 476, 477, 479, 480, 481, 482, 484, 486, 487, 488,
+       489, 490, 491, 492, 493, 494, 496, 497, 498, 499, 500, 501, 502,
+       503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515,
+       517, 518, 519, 520, 523, 525, 526, 527, 528, 530, 531, 532, 533,
+       534, 536, 537, 538, 539, 540, 541, 542, 543, 544, 546, 547, 548,
+       550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562,
+       563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575,
+       576, 577, 578, 579, 580, 581, 583, 584, 585, 586, 587, 588, 589,
+       590, 591, 592, 593, 594, 595, 596, 598, 599, 600, 601, 603, 604,
+       605, 606, 607, 609, 610, 611, 613, 614, 615, 616, 617, 619, 620,
+       621, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 634,
+       635, 636, 637, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648,
+       649, 650, 651, 652, 653, 655, 657, 658, 659, 660, 661, 662, 663,
+       664, 665, 666, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677,
+       678, 679, 680, 681, 682, 683, 684, 685, 686, 689, 690, 691, 692,
+       693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705,
+       706, 707, 709, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720,
+       721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733,
+       734, 735, 736, 738, 739, 742, 743, 744, 745, 746, 747, 748, 749,
+       750, 751, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764,
+       765, 766, 767, 768, 770, 771, 772, 774, 775, 776, 777, 778, 779,
+       780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792,
+       793, 794, 795, 796, 797, 799, 800, 801, 802, 803, 804, 805, 806,
+       807, 808, 809, 811, 813, 814, 816, 817, 818, 819, 820, 821, 823,
+       824, 825, 826, 827, 828, 830, 831, 832, 833, 834, 835, 836, 838,
+       839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849, 850, 851,
+       852, 853, 854, 856, 857, 859, 860, 861, 862, 863, 864, 865, 866,
+       868, 870, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881,
+       882, 883, 884, 886, 887, 888, 889, 890, 892, 893, 894, 895, 896,
+       897, 898, 899, 900, 901, 902, 903, 904, 905, 906, 907, 908, 909,
+       910, 911, 912, 913, 914, 915, 916, 917, 918, 920, 921, 922, 923,
+       924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936,
+       937, 938, 939, 942]), array([ 14,  31,  55,  60,  65,  77,  97, 101, 122, 141, 142, 145, 175,
+       196, 200, 215, 239, 240, 252, 261, 262, 272, 279, 295, 310, 319,
+       338, 342, 345, 346, 352, 362, 363, 364, 382, 385, 386, 413, 415,
+       416, 434, 436, 452, 465, 478, 483, 485, 495, 516, 521, 522, 524,
+       529, 535, 545, 549, 582, 597, 602, 608, 612, 618, 622, 638, 654,
+       656, 667, 687, 688, 708, 710, 737, 740, 741, 752, 753, 769, 773,
+       798, 810, 812, 815, 822, 829, 837, 855, 858, 867, 869, 885, 891,
+       919, 940, 941, 943]))
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Loading data
+Number of tasks = 1
+Splitting data with seed 0
+==================== fold 0 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Loading data
+Number of tasks = 1
+Splitting data with seed 1
+==================== fold 0 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 8.844806 on epoch 0
+Model 0 test mae = 10.685177
+Model 0 test band_gap mae = 10.685177
+Ensemble test mae = 10.685177
+Ensemble test band_gap mae = 10.685177
+==================== fold 1 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 7.498137 on epoch 77
+Model 0 test mae = 1.545142
+Model 0 test band_gap mae = 1.545142
+Ensemble test mae = 1.545142
+Ensemble test band_gap mae = 1.545142
+==================== fold 2 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 3.510354 on epoch 0
+Model 0 test mae = 2.168659
+Model 0 test band_gap mae = 2.168659
+Ensemble test mae = 2.168659
+Ensemble test band_gap mae = 2.168659
+==================== fold 3 ====================
+Total size = 944 | train size = 755 | val size = 94 | test size = 95
+Fitting scaler
+None
+Model 0 best validation mae = 3.654641 on epoch 83
+Model 0 test mae = 1.834312
+Model 0 test band_gap mae = 1.834312
+Ensemble test mae = 1.834312
+Ensemble test band_gap mae = 1.834312
+==================== fold 4 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+None
+Model 0 best validation mae = 2.512005 on epoch 23
+Model 0 test mae = 0.154461
+Model 0 test band_gap mae = 0.154461
+Ensemble test mae = 0.154461
+Ensemble test band_gap mae = 0.154461
+==================== fold 5 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+None
+Model 0 best validation mae = 3.359724 on epoch 38
+Model 0 test mae = 2.254949
+Model 0 test band_gap mae = 2.254949
+Ensemble test mae = 2.254949
+Ensemble test band_gap mae = 2.254949
+==================== fold 6 ====================
+Total size = 944 | train size = 756 | val size = 94 | test size = 94
+Fitting scaler
+None
+Loading data
+Number of tasks = 1
+Splitting data with seed 1
+==================== fold 0 ====================
+Total size = 944 | train size = 825 | val size = 94 | test size = 25
+Fitting scaler
+None
+Loading data
+Number of tasks = 1
+Splitting data with seed 1
+==================== fold 0 ====================
+Total size = 944 | train size = 825 | val size = 94 | test size = 25
+Fitting scaler
+None
+Model 0 best validation mae = 7.391243 on epoch 3
+Model 0 test mae = 17.492221
+Model 0 test band_gap mae = 17.492221
+Ensemble test mae = 17.492221
+Ensemble test band_gap mae = 17.492221
+10-fold cross validation
+Seed 1
+Fold 0 ==> valid mae = 7.391243 test mae = 17.492221
+Fold 0 ==> valid band_gap mae = 7.391243test band_gap mae = 17.492221
+Overall valid mae = 7.391243 +/- 0.000000
+Overall test mae = 17.492221 +/- 0.000000
+Overall test band_gap mae = 17.492221 +/- 0.000000
+Loading data
+Loading data
+Number of tasks = 1
+Splitting data with seed 1
+==================== fold 0 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 7.647833 on epoch 1
+Model 0 test mae = 6.690854
+Model 0 test band_gap mae = 6.690854
+Ensemble test mae = 6.690854
+Ensemble test band_gap mae = 6.690854
+==================== fold 1 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 5.196585 on epoch 19
+Model 0 test mae = 3.177570
+Model 0 test band_gap mae = 3.177570
+Ensemble test mae = 3.177570
+Ensemble test band_gap mae = 3.177570
+==================== fold 2 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 2.376824 on epoch 7
+Model 0 test mae = 0.889665
+Model 0 test band_gap mae = 0.889665
+Ensemble test mae = 0.889665
+Ensemble test band_gap mae = 0.889665
+==================== fold 3 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 2.157620 on epoch 75
+Model 0 test mae = 0.452712
+Model 0 test band_gap mae = 0.452712
+Ensemble test mae = 0.452712
+Ensemble test band_gap mae = 0.452712
+==================== fold 4 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 2.037475 on epoch 1
+Model 0 test mae = 0.727681
+Model 0 test band_gap mae = 0.727681
+Ensemble test mae = 0.727681
+Ensemble test band_gap mae = 0.727681
+==================== fold 5 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 2.090835 on epoch 2
+Model 0 test mae = 0.524841
+Model 0 test band_gap mae = 0.524841
+Ensemble test mae = 0.524841
+Ensemble test band_gap mae = 0.524841
+==================== fold 6 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 2.691513 on epoch 82
+Model 0 test mae = 1.684244
+Model 0 test band_gap mae = 1.684244
+Ensemble test mae = 1.684244
+Ensemble test band_gap mae = 1.684244
+==================== fold 7 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 0.633892 on epoch 1
+Model 0 test mae = 0.564287
+Model 0 test band_gap mae = 0.564287
+Ensemble test mae = 0.564287
+Ensemble test band_gap mae = 0.564287
+==================== fold 8 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 0.662705 on epoch 44
+Model 0 test mae = 0.473685
+Model 0 test band_gap mae = 0.473685
+Ensemble test mae = 0.473685
+Ensemble test band_gap mae = 0.473685
+==================== fold 9 ====================
+Total size = 919 | train size = 737 | val size = 91 | test size = 91
+Fitting scaler
+None
+Model 0 best validation mae = 0.762144 on epoch 35
+Model 0 test mae = 0.474849
+Model 0 test band_gap mae = 0.474849
+Ensemble test mae = 0.474849
+Ensemble test band_gap mae = 0.474849
+10-fold cross validation
+Seed 1
+Fold 0 ==> valid mae = 7.647833 test mae = 6.690854
+Fold 0 ==> valid band_gap mae = 7.647833test band_gap mae = 6.690854
+Fold 1 ==> valid mae = 5.196585 test mae = 3.177570
+Fold 1 ==> valid band_gap mae = 5.196585test band_gap mae = 3.177570
+Fold 2 ==> valid mae = 2.376824 test mae = 0.889665
+Fold 2 ==> valid band_gap mae = 2.376824test band_gap mae = 0.889665
+Fold 3 ==> valid mae = 2.157620 test mae = 0.452712
+Fold 3 ==> valid band_gap mae = 2.157620test band_gap mae = 0.452712
+Fold 4 ==> valid mae = 2.037475 test mae = 0.727681
+Fold 4 ==> valid band_gap mae = 2.037475test band_gap mae = 0.727681
+Fold 5 ==> valid mae = 2.090835 test mae = 0.524841
+Fold 5 ==> valid band_gap mae = 2.090835test band_gap mae = 0.524841
+Fold 6 ==> valid mae = 2.691513 test mae = 1.684244
+Fold 6 ==> valid band_gap mae = 2.691513test band_gap mae = 1.684244
+Fold 7 ==> valid mae = 0.633892 test mae = 0.564287
+Fold 7 ==> valid band_gap mae = 0.633892test band_gap mae = 0.564287
+Fold 8 ==> valid mae = 0.662705 test mae = 0.473685
+Fold 8 ==> valid band_gap mae = 0.662705test band_gap mae = 0.473685
+Fold 9 ==> valid mae = 0.762144 test mae = 0.474849
+Fold 9 ==> valid band_gap mae = 0.762144test band_gap mae = 0.474849
+Overall valid mae = 2.625742 +/- 2.098624
+Overall test mae = 1.566039 +/- 1.890664
+Overall test band_gap mae = 1.566039 +/- 1.890664
+Loading data
+Number of tasks = 1
+Splitting data with seed 1
+==================== fold 0 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 9.788796 on epoch 0
+Model 0 test mae = 9.917665
+Model 0 test band_gap mae = 9.917665
+Ensemble test mae = 9.917665
+Ensemble test band_gap mae = 9.917665
+==================== fold 1 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 4.543805 on epoch 21
+Model 0 test mae = 3.864657
+Model 0 test band_gap mae = 3.864657
+Ensemble test mae = 3.864657
+Ensemble test band_gap mae = 3.864657
+==================== fold 2 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 2.318837 on epoch 91
+Model 0 test mae = 0.683085
+Model 0 test band_gap mae = 0.683085
+Ensemble test mae = 0.683085
+Ensemble test band_gap mae = 0.683085
+==================== fold 3 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 2.163771 on epoch 82
+Model 0 test mae = 0.430437
+Model 0 test band_gap mae = 0.430437
+Ensemble test mae = 0.430437
+Ensemble test band_gap mae = 0.430437
+==================== fold 4 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 2.176274 on epoch 12
+Model 0 test mae = 0.792708
+Model 0 test band_gap mae = 0.792708
+Ensemble test mae = 0.792708
+Ensemble test band_gap mae = 0.792708
+==================== fold 5 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 1.972858 on epoch 21
+Model 0 test mae = 0.457374
+Model 0 test band_gap mae = 0.457374
+Ensemble test mae = 0.457374
+Ensemble test band_gap mae = 0.457374
+==================== fold 6 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 2.848668 on epoch 78
+Model 0 test mae = 1.282286
+Model 0 test band_gap mae = 1.282286
+Ensemble test mae = 1.282286
+Ensemble test band_gap mae = 1.282286
+==================== fold 7 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 0.626235 on epoch 5
+Model 0 test mae = 0.561705
+Model 0 test band_gap mae = 0.561705
+Ensemble test mae = 0.561705
+Ensemble test band_gap mae = 0.561705
+==================== fold 8 ====================
+Total size = 919 | train size = 736 | val size = 91 | test size = 92
+Fitting scaler
+None
+Model 0 best validation mae = 0.595071 on epoch 9
+Model 0 test mae = 0.402156
+Model 0 test band_gap mae = 0.402156
+Ensemble test mae = 0.402156
+Ensemble test band_gap mae = 0.402156
+==================== fold 9 ====================
+Total size = 919 | train size = 737 | val size = 91 | test size = 91
+Fitting scaler
+None
+Model 0 best validation mae = 0.645559 on epoch 42
+Model 0 test mae = 0.215110
+Model 0 test band_gap mae = 0.215110
+Ensemble test mae = 0.215110
+Ensemble test band_gap mae = 0.215110
+10-fold cross validation
+Seed 1
+Fold 0 ==> valid mae = 9.788796 test mae = 9.917665
+Fold 0 ==> valid band_gap mae = 9.788796test band_gap mae = 9.917665
+Fold 1 ==> valid mae = 4.543805 test mae = 3.864657
+Fold 1 ==> valid band_gap mae = 4.543805test band_gap mae = 3.864657
+Fold 2 ==> valid mae = 2.318837 test mae = 0.683085
+Fold 2 ==> valid band_gap mae = 2.318837test band_gap mae = 0.683085
+Fold 3 ==> valid mae = 2.163771 test mae = 0.430437
+Fold 3 ==> valid band_gap mae = 2.163771test band_gap mae = 0.430437
+Fold 4 ==> valid mae = 2.176274 test mae = 0.792708
+Fold 4 ==> valid band_gap mae = 2.176274test band_gap mae = 0.792708
+Fold 5 ==> valid mae = 1.972858 test mae = 0.457374
+Fold 5 ==> valid band_gap mae = 1.972858test band_gap mae = 0.457374
+Fold 6 ==> valid mae = 2.848668 test mae = 1.282286
+Fold 6 ==> valid band_gap mae = 2.848668test band_gap mae = 1.282286
+Fold 7 ==> valid mae = 0.626235 test mae = 0.561705
+Fold 7 ==> valid band_gap mae = 0.626235test band_gap mae = 0.561705
+Fold 8 ==> valid mae = 0.595071 test mae = 0.402156
+Fold 8 ==> valid band_gap mae = 0.595071test band_gap mae = 0.402156
+Fold 9 ==> valid mae = 0.645559 test mae = 0.215110
+Fold 9 ==> valid band_gap mae = 0.645559test band_gap mae = 0.215110
+Overall valid mae = 2.767988 +/- 2.604119
+Overall test mae = 1.860718 +/- 2.869323
+Overall test band_gap mae = 1.860718 +/- 2.869323
