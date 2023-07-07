@@ -1,8 +1,9 @@
+# GraphTTS
 GraphTTS is a directed graph-based deep learning model for predicting material properties based on the CrystalNet[1] framework.
 
 In our Model, each node u is represented by an initial feature vector x(u) that collected from the atom fingerprint, each edge 〖(u,v)〗_k is also represented by a raw feature vector x((u,v)_k ), corresponding to the kth bond connecting atom u and v. Note that the metal bonds and the ionic bonds are depended on the distance and the electronegativity between two atoms, we expanded the distance with the Gaussian basis exp⁡(-(r-r_0 )^2/σ^2) centered at 100 points linearly placed between 0 and 5 and σ=0.5.
 
-Requirement
+# Requirement
 numpy                 1.20.2
 pandas                1.2.4
 pymatgen              2020.12.18
@@ -20,18 +21,18 @@ torchvision           0.6.0+cu101
 tornado               6.1
 tqdm                  4.60.0
 
-How to prepare dataset?
+# How to prepare dataset?
 Specified the fowllowing files path in proprecess.py
 
 property.csv
 cif files
 And then run proprecess.py.
 
-How to run?
+# How to run?
 python -u train_all.py --seed 0/1/2/3/4
 
-How to predict properties?
+# How to predict properties?
 python -u predict.py --seed 0 
 
-Reference:
+# Reference:
 [1]. Pin Chen, Yu Wang, Hui Yan, Sen Gao, Zexin Xu, Yangzhong Li, Qing Mo, Junkang Huang, Jun Tao, GeChuanqi Pan, Jiahui Li & Yunfei Du. 3DStructGen: an interactive web-based 3D structure generation for non-periodic molecule and crystal. J Cheminform 12, 7 (2020). https://doi.org/10.1186/s13321-020-0411-2
