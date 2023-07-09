@@ -23,8 +23,8 @@ tqdm                  4.60.0
 
 # How to prepare dataset?
 Specified the fowllowing files path in proprecess.py
-cif_files.csv
-data_cif
+- cif_files.csv
+- data_cif
 And then run proprecess.py.
 
 # How to run?
