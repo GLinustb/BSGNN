@@ -32,7 +32,7 @@ And then run proprecess.py.
 python -u train_all.py --seed 4 --data_path ./GraphTTS --dataset_type regression --metric r2 --save_dir ./GraphTTS/test --epochs 100 --init_lr 1e-4 --max_lr 3e-4 --final_lr 1e-4 --no_features_scaling --show_individual_scores --max_num_neighbors 64
 
 # How to predict properties?
-python -u predict.py --seed 0 
+python -u predict.py --data_path ./GraphTTS/predict.csv --checkpoint_paths ['./GraphTTS//test/fold_4/model_0/model.pt'] --test_path ./GraphTTS
 
 # Reference:
 [1]. Pin Chen, Yu Wang, Hui Yan, Sen Gao, Zexin Xu, Yangzhong Li, Qing Mo, Junkang Huang, Jun Tao, GeChuanqi Pan, Jiahui Li & Yunfei Du. 3DStructGen: an interactive web-based 3D structure generation for non-periodic molecule and crystal. J Cheminform 12, 7 (2020). https://doi.org/10.1186/s13321-020-0411-2
