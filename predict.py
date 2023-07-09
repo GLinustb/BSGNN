@@ -22,15 +22,6 @@ import math
 
 if __name__ == '__main__':
     args = parse_train_args()
-    args.data_path = 'D:/GraphTTS/predict.csv'
-    path = os.listdir(r'D:/GraphTTS/test')
-    checkpoint_paths = []
-    for i in path:
-        i = 'D:/GraphTTS/test/' + i + '/' + 'model_0/model.pt'
-        checkpoint_paths.append(i)
-    args.checkpoint_paths = checkpoint_paths
-    args.test_path = r'D:GraphTTS'
-    args.dataset_name = 'predict'
     df = pd.read_csv(args.data_path, index_col=0)
     pred, smiles = make_predictions(args, df.index.tolist())
     hard_preds = [1 if p[0] > 0.5 else 0 for p in pred]
