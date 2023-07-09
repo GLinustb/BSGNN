@@ -43,8 +43,6 @@ torch.cuda.empty_cache()
 def cross_validate(args: Namespace, logger: Logger = None) -> Tuple[np.ndarray, np.ndarray]:
     """k-fold cross validation"""
     info = logger.info if logger is not None else print
-    args.metric="r2"
-
     info('Loading data')
     args.dataset_name = 'df_heavy_Fermion'
     data_heavy_Fermion = get_data(path=args.data_path, args=args, logger=logger)
@@ -74,7 +72,7 @@ def cross_validate(args: Namespace, logger: Logger = None) -> Tuple[np.ndarray, 
 
    # Run training on different random seeds for each fold
     all_validation_scores, all_test_scores = list(), list()
-    seed = 4
+    seed = args.seed
     train_val_data_heavy_Fermion, test_data_heavy_Fermion = train_test_split(data_heavy_Fermion, test_size=int(len(data_heavy_Fermion) * 0.1), random_state=seed)
     train_data_heavy_Fermion, val_data_heavy_Fermion = train_test_split(train_val_data_heavy_Fermion, test_size=int(len(train_val_data_heavy_Fermion) * 0.1), random_state=seed)
 
