@@ -29,7 +29,7 @@ cif files
 And then run proprecess.py.
 
 # How to run?
-python -u train_all.py --seed 0/1/2/3/4
+python -u train_all.py --seed 4 --data_path ../data/preprocess --train_path ./data/preprocess/calculate --dataset_name band_gap --dataset_type regression --run_fold 0 --metric mae --save_dir ./ckpt/ensemble_band_gap --epochs 100 --init_lr 1e-4 --max_lr 3e-4 --final_lr 1e-4 --no_features_scaling --show_individual_scores --max_num_neighbors 64 > ./log/fold_0_band_gap.log 2>&1 &
 
 # How to predict properties?
 python -u predict.py --seed 0 
