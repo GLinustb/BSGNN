@@ -7,9 +7,9 @@ Created on Wed Dec  4 19:42:36 2019
 import warnings
 warnings.filterwarnings('ignore')
 import pandas as pd
-from chemprop.parsing import parse_train_args, modify_train_args
-from chemprop.train import make_predictions
-from chemprop.data import StandardScaler
+from graphtts.parsing import parse_train_args, modify_train_args
+from graphtts.train import make_predictions
+from graphtts.data import StandardScaler
 from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error,accuracy_score
 import os
 import re

@@ -7,8 +7,8 @@ import numpy as np
 from torch_geometric.nn import SuperGATConv,GatedGraphConv,GATv2Conv,GATConv,TransformerConv
 
 
-from chemprop.features import BatchMolGraph, get_atom_fdim, get_bond_fdim, mol2graph
-from chemprop.nn_utils import index_select_ND, get_activation_function
+from graphtts.features import BatchMolGraph, get_atom_fdim, get_bond_fdim, mol2graph
+from graphtts.nn_utils import index_select_ND, get_activation_function
 import math
 import torch.nn.functional as F
 

@@ -12,9 +12,9 @@ import torch.nn as nn
 from torch.optim import Adam, SGD, Optimizer
 from torch.optim.lr_scheduler import _LRScheduler
 
-from chemprop.data import StandardScaler
-from chemprop.models import build_model, MoleculeModel
-from chemprop.nn_utils import NoamLR
+from graphtts.data import StandardScaler
+from graphtts.models import build_model, MoleculeModel
+from graphtts.nn_utils import NoamLR
 
 
 def makedirs(path: str, isfile: bool = False):

@@ -4,8 +4,8 @@ import os
 from tempfile import TemporaryDirectory
 import pickle
 import torch
-from chemprop.utils import makedirs
-from chemprop.features import get_available_features_generators
+from graphtts.utils import makedirs
+from graphtts.features import get_available_features_generators
 
 
 def parse_predict_args() -> Namespace:

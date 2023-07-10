@@ -1,8 +1,8 @@
-import chemprop.data
-import chemprop.features
-import chemprop.models
-import chemprop.train
+import graphtts.data
+import graphtts.features
+import graphtts.models
+import graphtts.train
 
-import chemprop.nn_utils
-import chemprop.parsing
-import chemprop.utils
+import graphtts.nn_utils
+import graphtts.parsing
+import graphtts.utils

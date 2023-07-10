@@ -4,7 +4,7 @@ from typing import Callable, List
 import torch.nn as nn
 import math
 from .predict import predict
-from chemprop.data import MoleculeDataset, StandardScaler
+from graphtts.data import MoleculeDataset, StandardScaler
 import matplotlib
 matplotlib.use('AGG')
 import matplotlib.pyplot as plt

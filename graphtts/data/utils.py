@@ -13,7 +13,7 @@ from tqdm import tqdm
 
 from .data import MoleculeDatapoint, MoleculeDataset
 from .scaffold import log_scaffold_stats, scaffold_split
-from chemprop.features import load_features
+from graphtts.features import load_features
 
 
 

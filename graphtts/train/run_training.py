@@ -16,11 +16,11 @@ import matplotlib.pyplot as plt
 from .evaluate import evaluate, evaluate_predictions
 from .predict import predict
 from .train import train
-from chemprop.models import build_model
-from chemprop.data.utils import get_task_names, get_data, get_class_sizes, split_data
-from chemprop.data.scaler import StandardScaler
-from chemprop.nn_utils import param_count
-from chemprop.utils import build_optimizer, build_lr_scheduler, get_loss_func, get_metric_func, load_checkpoint, \
+from graphtts.models import build_model
+from graphtts.data.utils import get_task_names, get_data, get_class_sizes, split_data
+from graphtts.data.scaler import StandardScaler
+from graphtts.nn_utils import param_count
+from graphtts.utils import build_optimizer, build_lr_scheduler, get_loss_func, get_metric_func, load_checkpoint, \
     makedirs, save_checkpoint
 import shap
 
@@ -180,7 +180,7 @@ def run_training(crystal, train_data, val_data, test_data, all_data, fold_num, a
             #plt.plot(x,y,c="black")
             #plt.scatter(pred,gt,c='blue')
 
-            #plt.savefig("/GPUFS/nscc-gz_pinchen2/superconductors/test/cgcmpnn/chemprop/"+str(model_idx)+"_"+str(epoch)+".png")
+            #plt.savefig("/GPUFS/nscc-gz_pinchen2/superconductors/test/cgcmpnn/graphtts/"+str(model_idx)+"_"+str(epoch)+".png")
 
             # Average validation score
             avg_val_score = np.nanmean(val_scores)

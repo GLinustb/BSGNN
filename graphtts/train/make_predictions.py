@@ -7,9 +7,9 @@ import torch
 from tqdm import tqdm
 
 from .predict import predict
-from chemprop.data import MoleculeDataset
-from chemprop.data.utils import get_data, get_data_from_smiles
-from chemprop.utils import load_args, load_checkpoint, load_scalers
+from graphtts.data import MoleculeDataset
+from graphtts.data.utils import get_data, get_data_from_smiles
+from graphtts.utils import load_args, load_checkpoint, load_scalers
 
 
 def make_predictions(args: Namespace, smiles: List[str] = None) -> List[Optional[List[float]]]:
