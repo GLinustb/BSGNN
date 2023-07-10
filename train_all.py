@@ -59,12 +59,9 @@ def cross_validate(args: Namespace, logger: Logger = None) -> Tuple[np.ndarray, 
     args.dataset_name = 'df_h'
     data_h = get_data(path=args.data_path, args=args, logger=logger)
 
-    args.dataset_name = 'df_all_data'
-    data = get_data(path=args.data_path, args=args, logger=logger)
-
     args.task_names = get_task_names(os.path.join(args.data_path, f'{args.dataset_name}.csv'))
-    args.num_tasks = data.num_tasks()
-    args.features_size = data.features_size()
+    args.num_tasks = len(data_heavy_Fermion) + len(data_others) + len(data_cuprate) + len(data_iron) + len(data_h)
+    args.features_size = data_h.features_size()
 
     info(f'Number of tasks = {args.num_tasks},{args.task_names}')
     # Split data
@@ -154,7 +151,7 @@ def cross_validate(args: Namespace, logger: Logger = None) -> Tuple[np.ndarray, 
 
 
 if __name__ == '__main__':
-    crystal = pd.read_csv(r'D:\ML/df_all_data0424.csv', index_col=0)
+    crystal = pd.read_csv(r'./data/df_all_data.csv', index_col=0)
     args = parse_train_args()
     logger = create_logger(name='train', save_dir=args.save_dir, quiet=args.quiet)
     mean_auc_score, std_auc_score = cross_validate(args, logger)
