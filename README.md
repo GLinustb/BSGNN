@@ -1,7 +1,8 @@
 # GraphTTS
-GraphTTS is a directed graph-based deep learning model for predicting material properties based on the CrystalNet[1] framework.
+GraphTTS is a GNN model for predicting superconductivity based on the CrystalNet[1] framework.
 
-In our Model, each node u is represented by an initial feature vector x(u) that collected from the atom fingerprint, each edge 〖(u,v)〗_k is also represented by a raw feature vector x((u,v)_k ), corresponding to the kth bond connecting atom u and v. Note that the metal bonds and the ionic bonds are depended on the distance and the electronegativity between two atoms, we expanded the distance with the Gaussian basis exp⁡(-(r-r_0 )^2/σ^2) centered at 100 points linearly placed between 0 and 5 and σ=0.5.
+In our Model, we add three modules into GraphTTS: crystal graph represent (CGR), communicative message passing (CMP) and attention (GAT) module. First, CGR module represents the ordered and disordered crystal structures as periodic graphs. Specifically, each node is represented by an initial feature vector that collected from the atom fingerprint, each edge is also represented by a raw feature vector, corresponding to the bond connecting two atoms. Here, only the nearest neighboring nodes were connected with central nodes and lattice distortion were taken into consideration, which allows the graph represents crystal structure correctly. Second, CMP module mimics the complex physical and chemical interactions between atoms and bonds. where the message interactions were strengthened between atoms and bonds through communicative message passing. Third, attention module give different weights to neighboring nodes during message passing. 
+
 
 # Requirement
 ```
