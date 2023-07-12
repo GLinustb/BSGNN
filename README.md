@@ -31,10 +31,12 @@ Specified the fowllowing files path in proprecess.py
 And then run proprecess.py.
 
 # How to run?
+```
 python -u train_all.py --seed 4 --data_path ./GraphTTS/data --dataset_type regression --metric r2 --save_dir ./GraphTTS/test --epochs 100 --init_lr 1e-4 --max_lr 3e-4 --final_lr 1e-4 --no_features_scaling --show_individual_scores --max_num_neighbors 64
-
+```
 # How to predict properties?
+```
 python -u predict.py --data_path ./GraphTTS/predict.csv --checkpoint_paths ['./GraphTTS//test/fold_4/model_0/model.pt'] --test_path ./GraphTTS --dataset_name predict
-
+```
 # Reference:
 [1]. Chen P, Chen J, Yan H, et al. Improving Material Property Prediction by Leveraging the Large-Scale Computational Database and Deep Learning[J]. The Journal of Physical Chemistry C, 2022, 126(38): 16297-16305.
