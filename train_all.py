@@ -97,7 +97,7 @@ def cross_validate(args: Namespace, logger: Logger = None) -> Tuple[np.ndarray, 
     # Random Sample Validation data
 
 
-    train_data, val_data, test_data, all_data = MoleculeDataset(train_data), MoleculeDataset(val_data), MoleculeDataset(test_data), MoleculeDataset(data)
+    train_data, val_data, test_data = MoleculeDataset(train_data), MoleculeDataset(val_data), MoleculeDataset(test_data)
 
     #print(train _data[1])
     #print(data[1])
@@ -110,7 +110,7 @@ def cross_validate(args: Namespace, logger: Logger = None) -> Tuple[np.ndarray, 
     save_dir = os.path.join(args.save_dir, f'fold_{seed}')
     makedirs(save_dir)
 
-    model_validation_scores, model_test_scores = run_training(crystal,train_data, val_data, test_data, all_data, seed, args, logger)
+    model_validation_scores, model_test_scores = run_training(crystal,train_data, val_data, test_data, seed, args, logger)
     all_validation_scores.append(model_validation_scores)
     all_test_scores.append(model_test_scores)
 
