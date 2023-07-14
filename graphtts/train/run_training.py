@@ -24,7 +24,7 @@ from graphtts.utils import build_optimizer, build_lr_scheduler, get_loss_func, g
     makedirs, save_checkpoint
 import shap
 
-def run_training(crystal, train_data, val_data, test_data, all_data, fold_num, args: Namespace, logger: Logger = None) -> Tuple[List[Union[float, np.ndarray]], List[float]]:
+def run_training(crystal, train_data, val_data, test_data, fold_num, args: Namespace, logger: Logger = None) -> Tuple[List[Union[float, np.ndarray]], List[float]]:
     """
     Trains a model and returns test scores on the model checkpoint with the highest validation score.
 
