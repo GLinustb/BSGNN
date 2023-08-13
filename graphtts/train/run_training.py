@@ -135,7 +135,6 @@ def run_training(crystal, train_data, val_data, test_data, fold_num, args: Names
         if args.cuda:
             debug('Moving model to cuda')
             model = model.cuda()
-
         # Ensure that model is saved in correct location for evaluation if 0 epochs
         save_checkpoint(os.path.join(save_dir, 'model.pt'), model, scaler, features_scaler, args)
 
@@ -145,8 +144,8 @@ def run_training(crystal, train_data, val_data, test_data, fold_num, args: Names
         # Learning rate schedulers
         scheduler = build_lr_scheduler(optimizer, args)
         # Run training
-        # best_score = float('inf') if args.minimize_score else -float('inf') #min
-        best_score = -float('inf') if args.minimize_score else float('inf') #max
+        best_score = float('inf') if args.minimize_score else -float('inf') #min
+        # best_score = -float('inf') if args.minimize_score else float('inf') #max
         best_epoch, n_iter = 0, 0
         for epoch in range(args.epochs):
             debug(f'Epoch {epoch}')
@@ -194,8 +193,8 @@ def run_training(crystal, train_data, val_data, test_data, fold_num, args: Names
                     writer.add_scalar(f'validation_{task_name}_{args.metric}', val_score, n_iter)
 
             # Save model checkpoint if improved validation score
-            # if args.minimize_score and avg_val_score < best_score or not args.minimize_score and avg_val_score > best_score: #minmize
-            if args.minimize_score and avg_val_score > best_score or not args.minimize_score and avg_val_score < best_score:  #maxmize
+            if args.minimize_score and avg_val_score < best_score or not args.minimize_score and avg_val_score > best_score: #minmize
+            # if args.minimize_score and avg_val_score > best_score or not args.minimize_score and avg_val_score < best_score:  #maxmize
                 best_score, best_epoch = avg_val_score, epoch
                 save_checkpoint(os.path.join(save_dir, 'model.pt'), model, scaler, features_scaler, args)
 
@@ -251,17 +250,15 @@ def run_training(crystal, train_data, val_data, test_data, fold_num, args: Names
                 df_test_result.loc[smile,'pred'] = np.array(test_preds)[i][0]
                 df_test_result.loc[smile,'cf'] = crystal.loc[smile,'cf']
                 df_test_result.loc[smile,'family'] = crystal.loc[smile,'family']
-            df_test_result.to_csv(r'D:/GraphTTS/df_test_result_regression' + str(fold_num) +'.csv')
+            df_test_result.to_csv(r'../graphtts/result/df_test_result_regression' + str(fold_num) +'.csv')
         else:
             df_test_result = pd.DataFrame()
             for i,smile in enumerate(test_data.smiles()):
                 df_test_result.loc[smile,'true'] = np.array(test_targets)[i][0]
                 df_test_result.loc[smile,'pred'] = np.array(test_preds)[i][0]
                 # df_test_result.loc[smile,'cf'] = crystal.loc[smile,'cf']
-            df_test_result.to_csv(r'D:/GraphTTS/df_test_result_classification' + str(fold_num) +'.csv')
-            # df_auc = pd.read_csv(r'D:/ML/test_df/df_auc.csv', index_col=0)
-            # df_auc.loc[fold_num,'auc'] = test_scores[0]
-            # df_auc.to_csv(r'D:/ML/test_df/df_auc.csv')
+            df_test_result.to_csv(r'../graphtts/result/df_test_result_classification' + str(fold_num) +'.csv')
+
 
         # Average test score
         avg_test_score = np.nanmean(test_scores)

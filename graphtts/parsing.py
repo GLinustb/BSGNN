@@ -40,16 +40,16 @@ def add_predict_args(parser: ArgumentParser):
                         help='Which GPU to use')
     parser.add_argument('--test_path', type=str,
                         help='Path to CSV file containing testing data for which predictions will be made',
-                        default='../input/test.csv')
+                        default='./data/predict.csv')
     parser.add_argument('--use_compound_names', action='store_true', default=False,
                         help='Use when test data file contains compound names in addition to SMILES strings')
     parser.add_argument('--preds_path', type=str,
                         help='Path to CSV file where predictions will be saved',
-                        default='test_pred')
+                        default='../graphtts/result/predict_result.csv',)
     parser.add_argument('--checkpoint_dir', type=str,
                         help='Directory from which to load model checkpoints'
                              '(walks directory and ensembles all models that are found)',
-                        default='./ckpt')
+                        default='../graphtts//test')
     parser.add_argument('--checkpoint_path', type=str,
                         help='Path to model checkpoint (.pt file)')
     parser.add_argument('--batch_size', type=int, default=16,
@@ -79,9 +79,11 @@ def add_train_args(parser: ArgumentParser):
                         help='Which GPU to use')
     parser.add_argument('--data_path', type=str,
                         help='Path to data CSV file',
-                        default='D:/GraphTTS')
+                        default='../graphtts/data')
     parser.add_argument('--dataset_name', type=str,
                         help='the dataset name')
+    parser.add_argument('--result_path', type=str, default='../graphtts/result/df_test_result_regression',
+                        help='path to result CSV file')
     parser.add_argument('--use_compound_names', action='store_true', default=False,
                         help='Use when test data file contains compound names in addition to SMILES strings')
     parser.add_argument('--max_data_size', type=int,
@@ -95,7 +97,7 @@ def add_train_args(parser: ArgumentParser):
                         help='Method of generating additional features')
     parser.add_argument('--features_path', type=str, nargs='*',
                         help='Path to features to use in FNN (instead of features_generator)')
-    parser.add_argument('--save_dir', type=str, default='D:/GraphTTS/test',
+    parser.add_argument('--save_dir', type=str, default='../graphtts/test',
                         help='Directory where model checkpoints will be saved')
     parser.add_argument('--save_smiles_splits', action='store_true', default=False,
                         help='Save smiles for each train/val/test splits for prediction convenience later')
@@ -143,7 +145,7 @@ def add_train_args(parser: ArgumentParser):
                         help='Random seed to use when splitting data into train/val/test sets.'
                              'When `num_folds` > 1, the first fold uses this seed and all'
                              'subsequent folds add 1 to the seed.')
-    parser.add_argument('--metric', type=str, default=None,
+    parser.add_argument('--metric', type=str, default='r2',
                         choices=['auc', 'prc-auc', 'rmse', 'mae', 'mse', 'r2', 'accuracy', 'cross_entropy'],
                         help='Metric to use during evaluation.'
                              'Note: Does NOT affect loss function used during training'
