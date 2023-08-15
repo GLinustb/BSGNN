@@ -8,13 +8,13 @@ from typing import Tuple
 import numpy as np
 from sklearn.model_selection import KFold, train_test_split
 import matplotlib.pyplot as plt
-from graphtts.train.run_training import run_training
-from graphtts.data.utils import get_task_names, get_data
-from graphtts.data.data import MoleculeDataset
-from graphtts.utils import makedirs
-from graphtts.parsing import parse_train_args
-from graphtts.utils import create_logger
-from graphtts.models import build_model
+from bsgnn.train.run_training import run_training
+from bsgnn.data.utils import get_task_names, get_data
+from bsgnn.data.data import MoleculeDataset
+from bsgnn.utils import makedirs
+from bsgnn.parsing import parse_train_args
+from bsgnn.utils import create_logger
+from bsgnn.models import build_model
 
 import random
 import numpy as np

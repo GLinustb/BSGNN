@@ -7,9 +7,9 @@ Created on Wed Dec  4 19:42:36 2019
 import warnings
 warnings.filterwarnings('ignore')
 import pandas as pd
-from graphtts.parsing import parse_predict_args, modify_train_args
-from graphtts.train import make_predictions
-from graphtts.data import StandardScaler
+from bsgnn.parsing import parse_predict_args, modify_train_args
+from bsgnn.train import make_predictions
+from bsgnn.data import StandardScaler
 from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error,accuracy_score
 import os
 import re
