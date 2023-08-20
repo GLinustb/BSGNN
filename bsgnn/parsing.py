@@ -41,6 +41,9 @@ def add_predict_args(parser: ArgumentParser):
     parser.add_argument('--test_path', type=str,
                         help='Path to CSV file containing testing data for which predictions will be made',
                         default='./data/predict.csv')
+    parser.add_argument('--dataset_name', type=str,
+                        help='the dataset name',
+                        default='predict')
     parser.add_argument('--use_compound_names', action='store_true', default=False,
                         help='Use when test data file contains compound names in addition to SMILES strings')
     parser.add_argument('--preds_path', type=str,
