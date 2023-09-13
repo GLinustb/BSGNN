@@ -33,5 +33,5 @@ if __name__ == '__main__':
     true1 = []
     predict_result = pd.DataFrame()
     for i in range(len(smiles)):
-        predict_result.loc[smiles[i],'pred'] = pred1[i]
+        predict_result.loc[smiles[i],'pred'] = 2**pred1[i]
     predict_result.to_csv(args.preds_path)

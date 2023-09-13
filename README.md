@@ -33,7 +33,7 @@ And then run proprecess.py.
 
 # How to run?
 ```
-python -u train_all.py --seed 4 --data_path ./data --dataset_type regression --metric r2 --save_dir ./test --epochs 100 --init_lr 1e-4 --max_lr 3e-4 --final_lr 1e-4 --no_features_scaling --show_individual_scores --max_num_neighbors 64
+python -u train_all.py --seed 4 --data_path ./data --dataset_type regression --metric r2 --save_dir ./test --epochs 100 --init_lr 1e-5 --max_lr 1e-4 --final_lr 1e-5 --no_features_scaling --show_individual_scores --max_num_neighbors 64
 ```
 # How to predict properties?
 ```

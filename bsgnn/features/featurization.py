@@ -17,7 +17,7 @@ import math
     # Memoization
 ATOM_ID = {}
 SMILES_TO_GRAPH = {}
-ATOM_FDIM = 16
+ATOM_FDIM = 15
 BOND_FDIM = 104
 
 
@@ -114,7 +114,7 @@ def _get_close_neighbors(structure, d_threshold=0.0):
         dict_threshold[atom] = distance_min
     for i in range(len(center_indices)):
         center_index, neighbor_index, offset_vector, distance = center_indices[i], neighbor_indices[i], offset_vectors[i], distances[i]
-        if distance < max(dict_threshold[center_index], dict_threshold[neighbor_index]) * 1.2:
+        if distance < max(dict_threshold[center_index], dict_threshold[neighbor_index])*1.2:
                 _center_indices.append(center_index)
                 _points_indices.append(neighbor_index)
                 _offset_vectors.append(offset_vector)
@@ -312,6 +312,7 @@ class MolGraph:
                                   for i in range(len(self.crystals))])
 
         center_indices, points_indices, offset_vectors, distances = _get_close_neighbors(self.crystals)
+
         for _ in range(self.n_atoms):
             self.a2b.append([])
 

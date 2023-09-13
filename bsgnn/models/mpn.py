@@ -171,16 +171,16 @@ class MPNEncoder(nn.Module):
         message_bond = input_bond.clone()
 
         # Message passing
-        for depth in range(self.depth-1):
-            agg_message = index_select_ND(message_bond, a2b)
-            agg_message = agg_message.sum(dim=1) * agg_message.max(dim=1)[0]
-            message_atom = message_atom + agg_message
+        # for depth in range(self.depth-1):
+        #     agg_message = index_select_ND(message_bond, a2b)
+        #     agg_message = agg_message.sum(dim=1) * agg_message.max(dim=1)[0]
+        #     message_atom = message_atom + agg_message
 
-            # directed graph
-            rev_message = message_bond[b2revb]  # num_bonds x hidden
-            message_bond = message_atom[b2a] - rev_message  # num_bonds x hidden
-            message_bond = self._modules[f'W_h_{depth}'](message_bond)
-            message_bond = self.dropout_layer(self.act_func(input_bond + message_bond))
+        #     # directed graph
+        #     rev_message = message_bond[b2revb]  # num_bonds x hidden
+        #     message_bond = message_atom[b2a] - rev_message  # num_bonds x hidden
+        #     message_bond = self._modules[f'W_h_{depth}'](message_bond)
+        #     message_bond = self.dropout_layer(self.act_func(input_bond + message_bond))
 
         atom_hiddens = self.attention(message_atom,bonds,message_bond)
         # atom_hiddens = self.lr(atom_hiddens)

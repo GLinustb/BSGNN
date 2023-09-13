@@ -169,7 +169,7 @@ def add_train_args(parser: ArgumentParser):
                              'file will override arguments specified via the command line or by the defaults.')
 
     # Training arguments
-    parser.add_argument('--epochs', type=int, default=100,
+    parser.add_argument('--epochs', type=int, default=50,
                         help='Number of epochs to run')
     parser.add_argument('--batch_size', type=int, default=64,
                         help='Batch size')
@@ -177,11 +177,11 @@ def add_train_args(parser: ArgumentParser):
                         help='Number of epochs during which learning rate increases linearly from'
                              'init_lr to max_lr. Afterwards, learning rate decreases exponentially'
                              'from max_lr to final_lr.')
-    parser.add_argument('--init_lr', type=float, default=1e-4,
+    parser.add_argument('--init_lr', type=float, default=1e-5,
                         help='Initial learning rate')
-    parser.add_argument('--max_lr', type=float, default=1e-3,
+    parser.add_argument('--max_lr', type=float, default=1e-4,
                         help='Maximum learning rate')
-    parser.add_argument('--final_lr', type=float, default=1e-4,
+    parser.add_argument('--final_lr', type=float, default=1e-5,
                         help='Final learning rate')
     parser.add_argument('--no_features_scaling', action='store_true', default=False,
                         help='Turn off scaling of features')
